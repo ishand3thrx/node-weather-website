@@ -17,3 +17,8 @@ Get real-time weather info by entering any location. Powered by Node.js, Express
 - Custom error messages for empty/invalid input
 - Responsive layout
 - Deployed and live!
+
+## 📌 What I Learned
+- Working with external APIs (Mapbox, WeatherStack)
+- Building and deploying full-stack apps
+- Node.js server architecture
