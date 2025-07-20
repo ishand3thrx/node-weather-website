@@ -79,6 +79,9 @@ app.get('/help',(req,res)=>{
         name:'Ishan bajaj'
     })
 })
+app.get('/ping', (req, res) => {
+  res.send('Pong!');
+});
 app.get('/help/*slug', (req, res) => {
     res.render('404',{
         title:'404',
@@ -94,16 +97,6 @@ app.use((req, res) => {
 })
 });
 
-//app.com
-//app.com/help
-//app.com/about
-//how to route them
-
-
-
 app.listen(port,()=>{
     console.log('server is up on port '+port)
 })
-
-
-
