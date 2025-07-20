@@ -31,8 +31,18 @@ header a{
     text-decoration: none;
 }
 
+.portrait-crop {
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
 .portrait {
-    width: 350px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -70px; 
 }
 
 .main-content{
